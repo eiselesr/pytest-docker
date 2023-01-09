@@ -135,7 +135,7 @@ def docker_compose_command():
     for Docker Compose v1 or `docker compose` for Docker Compose
     v2."""
 
-    return "docker-compose"
+    return "docker compose"
 
 
 @pytest.fixture(scope="session")
